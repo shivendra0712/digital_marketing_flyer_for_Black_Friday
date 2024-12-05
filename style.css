@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+   overflow-x: hidden;
+   font-family: "Parkinsans", serif;;
+}
+
+.page {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1623150502742-6a849aa94be4?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    
+}
+.page > p{
+     text-align: center;
+     
+}
+.page_box{
+    height: 40vh;
+    /* width: 100vw; */
+    background-color: white;
+   padding: 20px;
+   display: flex;
+    
+}
+.page_box_child{
+    
+    height: 100%;
+    /* width: 100%; */
+    background-color: white;
+    display: flex;
+    padding: 0 10px;
+    gap: 20px;
+    
+    animation-name: move_image;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.page_image{
+    padding: 10px;
+    height: 100%;
+    width: 600px;
+    background-color: rgb(196, 121, 30);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+   
+}
+.image1{
+     background-image: url(https://images.unsplash.com/photo-1480528813727-199fa7208f62?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.image2{
+    background-image: url(https://images.unsplash.com/photo-1542595734-a81220301d50?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.image3{
+    background-image: url(https://images.unsplash.com/photo-1647618403867-0899631484c6?q=80&w=1774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.page_image > h1{
+     padding-top: 5px;
+     padding-bottom: 10px;
+}
+.page_image button{
+    margin-top: 10px;
+   padding: 8px 14px;
+   border: 2px solid white;
+   background-color: transparent;
+   color: white;
+   cursor: pointer;
+}
+
+.page_image button:hover{
+   background-color: #e4cc92;
+   color: black;
+   cursor: pointer;
+}
+
+@keyframes move_image {
+    from{
+         transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.page > h2{
+    
+     font-size:3em;
+     text-align: center;
+     text-transform: uppercase;
+}
+
+.page > h1{
+    font-size:4em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.page > h3{
+    font-size:2.5em;
+    text-align: center;
+    color: #FD014D;
+    text-transform: uppercase;
+}
+.page > p{
+    font-size:1em;
+    text-align: center;
+    
+}
