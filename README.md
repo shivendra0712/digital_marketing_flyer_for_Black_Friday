@@ -24,3 +24,5 @@ The purpose of this project is to create an engaging and visually appealing digi
 ## Flyer Design
 
 ![Image](https://github.com/user-attachments/assets/346ebefd-84ec-4ac2-857d-8272fbdc6d60)
+
+![Image](https://github.com/user-attachments/assets/6fb87299-92cf-48dd-9c51-c4464d034ed4)
