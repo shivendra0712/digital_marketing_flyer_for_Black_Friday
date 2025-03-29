@@ -11,6 +11,7 @@ The purpose of this project is to create an engaging and visually appealing digi
 * **Scrolling Image Showcase:** A horizontal scrolling section showcasing different products with special offers.
 * **Black Friday Sale Promotion:** Prominent display of "Black Friday" and "Sale" with significant discounts.
 * **Call-to-Action Buttons:** "Shop Now" buttons on each product image and a final "Shop now" call to action.
+* **Responsive Design:** Uses `responsive.css` to adapt to different screen sizes.
 * **Visual Appeal:** Uses background images and a striking color scheme to attract attention.
 * **Animated Image Scroll:** Uses CSS animations to create a continuous scrolling effect for the product images.
 * **Custom Fonts:** Uses Google Fonts (Inter, Parkinsans, Protest Revolution).
