@@ -23,7 +23,9 @@ The purpose of this project is to create an engaging and visually appealing digi
 * Google Fonts
 
 ## Flyer Design
-
+### Flyer Design for Laptop Screen
 ![Image](https://github.com/user-attachments/assets/346ebefd-84ec-4ac2-857d-8272fbdc6d60)
-
+### Flyer Design for Tablet Screen
+![Image](https://github.com/user-attachments/assets/d72ca509-62a5-427d-9e1c-b644211cb1f5)
+### Flyer Design for Phone Screen
 ![Image](https://github.com/user-attachments/assets/6fb87299-92cf-48dd-9c51-c4464d034ed4)
